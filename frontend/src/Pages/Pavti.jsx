@@ -150,7 +150,7 @@ const handleDownload = async () => {
                 src={require('../Pages/logo.png')}
                 alt="logo"
                 className="img-fluid mb-2"
-                style={{ maxWidth: '120px', objectFit: 'contain', display: 'block', margin: '0 auto' }}
+                style={{ maxWidth: '100px', objectFit: 'contain', display: 'block', margin: '0 auto' }}
               />
               <div
                 style={{
@@ -242,7 +242,7 @@ const handleDownload = async () => {
               src={require('../Pages/Signature.jpg')}
               alt="logo"
               className="img-fluid mb-2 col-6"
-              style={{ maxWidth: '20em', objectFit: 'contain', display: 'block', margin: '0 auto' }}
+              style={{ maxWidth: '12em', objectFit: 'contain', display: 'block', margin: '0 auto', marginLeft: '1px'}}
             />
           </div>
 
