@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavBar from "../Components/NavBar";
 import axios from "axios";
 import Button from '@mui/material/Button';
-import '../styles/Home.css'; // Custom CSS for background and hover
+// ...existing code...
 import { useNavigate } from 'react-router-dom';
 import Alert from '@mui/material/Alert';
 function Form() {
@@ -67,7 +67,7 @@ function Form() {
 
       <form className='row' onSubmit={handleSubmit}>
         <div className="col-md-6 mb-3">
-          <label htmlFor="clientName" className="form-label text-muted">Client Name</label>
+          <label htmlFor="clientName" className="form-label text-muted">mera name</label>
           <input
             type="text"
             id="clientName"

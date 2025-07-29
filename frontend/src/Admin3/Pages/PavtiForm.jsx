@@ -2,14 +2,13 @@ import React from 'react';
 import NavBar from "../Components/NavBar"
 import axios from "axios"
 import Button from '@mui/material/Button';
-import '../styles/Home.css'; // Custom CSS for background and hover
+
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { data, useNavigate , useParams } from 'react-router-dom';
 
 function PavtiForm() {
     const navigate = useNavigate();
-    
     const [PavtiFormData, setPavtiFormData] = useState({
         idCode : "",
         address : "",
